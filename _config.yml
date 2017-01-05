@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 
 # Staticman
-staticmanUrl: https://api.staticman.net/v2/entry/id2m/staticman-form-public/master/comments
+staticmanUrl: https://api.staticman.net/v2/entry/id2m/staticman-form-private/master/comments
