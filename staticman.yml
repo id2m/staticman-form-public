@@ -15,7 +15,7 @@ comments:
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
   # allowedOrigins: ["localhost", "id2m.github.io/staticman-form-public"]
-  allowedOrigins: ["localhost", "https://id2m.github.io"]
+  # allowedOrigins: ["localhost", "https://id2m.github.io"]
 
   # (*) REQUIRED
   #
