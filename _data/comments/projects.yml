@@ -1,0 +1,15 @@
+- handle: staticman
+  featured: true
+  title: Staticman
+  copy: >
+    I’m a big fan of static site generators. I’ve used Jekyll to power numerous websites, including this one. But despite the clear advantages static sites can have over their database-driven, dynamic counterparts, it didn’t take long for me to feel a paradigmatic pain point: if there is no back-end to receive and process forms with user input, how can I add user-generated content? To address that, I built Staticman, a service that receives, processes and transforms content into data files, pushed to a GitHub repository where the rest of your content lives. Staticman creates a pull request whenever an entry is submitted: merge it to accept the submission, or close it to send it away. 
+  website: https://staticman.net
+  github: https://github.com/eduardoboucas/staticman
+
+- handle: speedtracker
+  featured: true
+  title: SpeedTracker
+  copy: >
+    I’m very interested in web performance. Making sure websites load and become responsive as quickly as possible is a determinant factor in user experience, engagement and even revenue. As a developer, this is something that I take into consideration at all times when working on a project, but I feel it’s equally important that performance data can be something that everyone in a team or organisation, regardless of their technical background, can access and act upon. SpeedTracker is a service that constantly monitors various performance metrics of a website and displays them in an easy-to-consume dashboard, allowing people to quickly assess how new features or infrastructural changes have impacted the perceived performance for users across the world.
+  website: https://speedtracker.org
+  github: https://github.com/speedtracker
