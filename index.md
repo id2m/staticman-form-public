@@ -6,9 +6,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 <form method="POST" action="{{ site.staticmanUrl }}">
-  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+  <!-- <input name="options[redirect]" type="hidden" value="https://my-site.com"> -->
   <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <!-- <input name="options[slug]" type="hidden" value="{{ page.slug }}"> -->
+  <input type="hidden" name="options[origin]" value="https://id2m.github.io/staticman-form-public/">
   <label><input name="fields[name]" type="text">Name</label>
   <label><input name="fields[email]" type="email">E-mail</label>
   <label><textarea name="fields[message]"></textarea>Message</label>
