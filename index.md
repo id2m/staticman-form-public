@@ -27,7 +27,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## formspree
 
-<form method="POST" action="http://formspree.io/lacasebiocoutras.adm@gmail.com">
+<form method="POST" action="https://formspree.io/lacasebiocoutras.adm@gmail.com">
   <input name="email" placeholder="Your email" type="email">
   <textarea name="message" placeholder="Your message"></textarea>
   <button type="submit">Send</button>
@@ -57,7 +57,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
       </li>
       <input type="submit" value="Subscribe" id="submit"/>
     <input type="hidden" name='redirect_to' value="https://id2m.github.io/staticman-form-public/confirmation-envoi.html"/>
-  </form>    
+  </form>x    
 </div>
 
 
