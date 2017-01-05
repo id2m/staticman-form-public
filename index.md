@@ -5,8 +5,11 @@ You can use the [editor on GitHub](https://github.com/id2m/staticman-form-public
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
+
+## form with staticman
+
 <form method="post" action="{{ site.staticmanUrl }}">
-  <!-- <input name="options[redirect]" type="hidden" value="https://my-site.com"> -->
+  <input name="options[redirect]" type="hidden" value="https://id2m.github.io/staticman-form-public/confirmation-envoi.html">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="2016-01-05-test">
   <input type="hidden" name="options[parent]" value="2016-01-05-test">
@@ -20,6 +23,47 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
   <label for="form-subscribe" class="form__field checkbox__label">I want to be notified of new comments</label>
   <input class="cta" type="submit" value="Send" />
 </form>
+
+
+## formspree
+
+<form method="POST" action="http://formspree.io/lacasebiocoutras.adm@gmail.com">
+  <input name="email" placeholder="Your email" type="email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
+
+## simple form
+<!-- <form action="https://getsimpleform.com/messages?form_api_token=c1c4dbc5cbcc6f1322b861a9e057d6d6" method="post"> -->
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+  <!-- all your input fields here.... -->
+  <!-- <input type='text' name='test' /> -->
+  <!-- <input type='submit' value='Test form' /> -->
+<!-- </form> -->
+
+<!-- <form action="https://getsimpleform.com/messages?form_api_token=c1c4dbc5cbcc6f1322b861a9e057d6d6" method="post">
+    <li class="contact-li">
+        <input type="email" placeholder="Your email" id="email"/>
+        <input type="submit" value="Subscribe" id="submit"/>
+    </li>
+</form> -->
+<!-- https://github.com/Redgadget/form-jekyll/blob/gh-pages/index.html -->
+<div class="wrap">
+  <p>This subscribe form works, eventhough the website is static!</p>
+  <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=c1c4dbc5cbcc6f1322b861a9e057d6d6" method="POST" enctype="multipart/form-data">
+      <li class="contact-li">
+          <input type="email" placeholder="Your email" id="email" class="contact-input" name="email" tabindex="2"/>
+      </li>
+      <input type="submit" value="Subscribe" id="submit"/>
+    <input type="hidden" name='redirect_to' value="https://id2m.github.io/staticman-form-public/confirmation-envoi.html"/>
+  </form>    
+</div>
+
+
+---
+---
+
 
 
 ### Markdown
