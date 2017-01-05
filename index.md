@@ -5,16 +5,20 @@ You can use the [editor on GitHub](https://github.com/id2m/staticman-form-public
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
-<form method="POST" action="{{ site.staticmanUrl }}">
+<form method="post" action="{{ site.staticmanUrl }}">
   <!-- <input name="options[redirect]" type="hidden" value="https://my-site.com"> -->
   <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <!-- <input name="options[slug]" type="hidden" value="{{ page.slug }}"> -->
+  <input name="options[slug]" type="hidden" value="2016-01-05-test">
+  <input type="hidden" name="options[parent]" value="2016-01-05-test">
   <input type="hidden" name="options[origin]" value="https://id2m.github.io/staticman-form-public/">
+
   <label><input name="fields[name]" type="text">Name</label>
   <label><input name="fields[email]" type="email">E-mail</label>
   <label><textarea name="fields[message]"></textarea>Message</label>
-  
-  <button type="submit">Go!</button>
+  <input id="form-subscribe" type="checkbox" name="options[subscribe]" value="email" class="checkbox">
+  <!-- <button type="submit">Go!</button> -->
+  <label for="form-subscribe" class="form__field checkbox__label">I want to be notified of new comments</label>
+  <input class="cta" type="submit" value="Send" />
 </form>
 
 
